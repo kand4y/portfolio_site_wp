@@ -35,5 +35,4 @@ $directory_uri = get_template_directory_uri();
 <body class="bg-white">
   <div class="wrapper">
     <?php get_template_part('includes/header-part') ?>
-
     <main>
