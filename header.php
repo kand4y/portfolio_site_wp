@@ -5,7 +5,7 @@ $directory_uri = get_template_directory_uri();
 ?>
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8" />
