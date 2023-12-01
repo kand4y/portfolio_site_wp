@@ -17,27 +17,9 @@
             </p>
           </div>
 
-          <form action="">
-            <div class="flex flex-col justify-center gap-8">
-              <div>
-                <label class="mb-1 block" for="">お名前</label>
-                <input type="text" />
-              </div>
-
-              <div>
-                <label class="mb-1 block" for="">メールアドレス</label>
-                <input type="text" />
-              </div>
-
-              <div>
-                <label class="mb-1 block" for="">お問い合わせ内容</label>
-                <textarea name="" id="" rows="10"></textarea>
-              </div>
-            </div>
-            <div class="flex items-center justify-center pt-12">
-              <input type="submit" value="送信" />
-            </div>
-          </form>
+          <div>
+            <?= do_shortcode('[contact-form-7 id="9e20361" title="contact-form"]') ?>
+          </div>
         </div>
       </div>
     </div>
